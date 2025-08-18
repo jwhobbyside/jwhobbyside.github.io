@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-</head>
-<body>
-  <h1><a href="/">{{ site.title }}</a></h1>
-  <h2 style="font-size: 24px; font-family: Helvetica, sans-serif; text-align: left; color: darkblue; margin-top: 40px;">{{ page.title }}</h2>
-  {{ content }}
-</body>
+  <div style="max-width: 700px; margin: 0 auto; padding: 40px;">
+    <head>
+      <meta charset="UTF-8">
+      <title>{{ page.title }} | {{ site.title }}</title>
+    </head>
+    <body>
+      <h1><a href="/">{{ site.title }}</a></h1>
+      <h2 style="font-size: 24px; font-family: Helvetica, sans-serif; text-align: left; color: darkblue; margin-top: 40px;">{{ page.title }}</h2>
+      {{ content }}
+    </body>
+  </div>
 </html>
