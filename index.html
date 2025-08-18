@@ -5,8 +5,8 @@ title: Home
 
 <h2 style="font-size: 24px; font-family: Helvetica, sans-serif">Blog Posts</h2>
   {% for post in site.posts %}
-    <li>
+    <p>
       <span style="color: gray;">{{ post.date | date: "%d %b %Y" }}</span>
       &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    </p>
   {% endfor %}
